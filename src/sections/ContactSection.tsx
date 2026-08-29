@@ -1,0 +1,4 @@
+import { SectionHeading } from '../components/SectionHeading'
+import { SocialIcon } from '../components/SocialIcon'
+import { socialLinks } from '../data/socialLinks'
+export function ContactSection() { return <section className="section contact-section" id="contact"><div className="container contact-grid"><div><SectionHeading eyebrow="Contact" title="Start a research conversation." /><p>For research, academic, and R&D collaboration enquiries, please use the contact details below.</p></div><ul className="contact-list">{socialLinks.map((link) => <li key={link.icon}>{link.url ? <a href={link.url} target="_blank" rel="noopener noreferrer"><SocialIcon type={link.icon} />{link.label}<span aria-hidden="true">↗</span></a> : <span><SocialIcon type={link.icon} />{link.label}</span>}</li>)}</ul></div></section> }

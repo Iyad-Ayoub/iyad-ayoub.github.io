@@ -1,0 +1,3 @@
+import { SectionHeading } from '../components/SectionHeading'
+import { researchAreas } from '../data/researchAreas'
+export function ResearchSection() { return <section className="section section-tint" id="research"><div className="container"><SectionHeading eyebrow="Research areas" title="A systems view of autonomous intelligence." intro="From sensing and spatial representation to cooperative, real-world deployment." /><div className="research-grid">{researchAreas.map((area) => <article className="research-card" key={area.title}><span className="area-tag">{area.tag}</span><h3>{area.title}</h3><p>{area.description}</p></article>)}</div></div></section> }
