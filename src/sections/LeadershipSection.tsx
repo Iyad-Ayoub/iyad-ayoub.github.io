@@ -1,0 +1,3 @@
+import { SectionHeading } from '../components/SectionHeading'
+import { impactMetrics } from '../data/impact'
+export function LeadershipSection() { return <section className="section leadership-section" id="leadership"><div className="container"><SectionHeading eyebrow="Leadership & impact" title="Experience at research and engineering scale." intro="Selected indicators across research, education, industrial leadership, and mentoring." /><div className="impact-grid">{impactMetrics.map((metric) => <article key={metric.label}><strong>{metric.value ?? '—'}</strong><h3>{metric.label}</h3><p>{metric.note}</p></article>)}</div></div></section> }
