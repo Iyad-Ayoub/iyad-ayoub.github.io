@@ -1,9 +1,9 @@
 import type { ResearchArea } from '../types'
 export const researchAreas: ResearchArea[] = [
-  { title: 'Autonomous Vehicles & Intelligent Transportation', description: 'Trustworthy autonomy for intelligent mobility, from perception to operational validation.', tag: 'AV' },
-  { title: 'Vectorized HD Mapping & Spatial Intelligence', description: 'Map learning and structured spatial representations for machine-understandable driving environments.', tag: 'MAP' },
-  { title: 'Robot Perception & Scene Understanding', description: 'AI-driven interpretation of dynamic road scenes across sensing and semantic layers.', tag: 'PER' },
-  { title: 'Multi-Sensor Fusion, Localization & SLAM', description: 'Robust state estimation and mapping through synchronized, complementary sensor modalities.', tag: 'FUS' },
-  { title: 'Foundation Models & Vision-Language-Action Systems', description: 'Multimodal reasoning and explainable decision support for autonomous systems.', tag: 'VLA' },
-  { title: 'Cooperative Autonomous Systems', description: 'Connected vehicle intelligence for cooperative sensing, mapping, and information fusion.', tag: 'COOP' },
+  { title: 'Autonomous Systems & Intelligent Transportation', description: 'Trustworthy autonomous systems from perception and localization to decision-making and experimental validation.', tag: 'AUT' },
+  { title: 'Localization, State Estimation & Multi-Sensor Fusion', description: 'Robust localization and state estimation using complementary sensing, calibration, synchronization, and probabilistic fusion.', tag: 'FUS' },
+  { title: 'Robot Perception & Scene Understanding', description: 'Computer vision and multimodal perception for understanding dynamic environments.', tag: 'PER' },
+  { title: 'Vectorized HD Mapping & Spatial Intelligence', description: 'Structured map representations, BEV learning, and machine-understandable spatial environments.', tag: 'MAP' },
+  { title: 'Simulation, Data Pipelines & Validation', description: 'Geometry-consistent simulation, synchronized sensor pipelines, replay and evaluation, and simulation-to-real validation.', tag: 'VAL' },
+  { title: 'Emerging Research — World Models & Vision-Language-Action', description: 'Future research toward multimodal prediction, reasoning, and intelligent decision-making for autonomous systems.', tag: 'FUT' },
 ]
